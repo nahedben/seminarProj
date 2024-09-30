@@ -59,7 +59,8 @@ const seminars = [
     endHour: "13:00",
     day: "الثلاثاء",
     date: "2024-12-03",
-    abstract: "Abstract still not available Dr.Hanen",
+    abstract:
+      "Corrosion engineering is an expanding discipline focused on understanding, preventing, and controlling material deterioration caused by chemical, electrochemical, or environmental interactions. It is vital for extending the lifespan and ensuring the safety of structures and machinery, with applications in industries such as oil and gas, automotive, construction, and aerospace. Advances in coatings, corrosion inhibitors, and materials science are driving new research and innovation in the field. As global infrastructure ages and sustainability becomes increasingly important, the demand for skilled corrosion engineers will rise, offering numerous opportunities for future scientists to address these critical challenges.",
     Keywords: "",
     isVisible: "none",
   },
