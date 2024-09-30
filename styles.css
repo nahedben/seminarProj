@@ -210,8 +210,10 @@ date-sub {
 
 .sem-title {
   font-size: 1.2em;
+  font-weight: 700;
   color: var(--dark-blue);
-  width: 50%;
+  /* width: 50%; */
+  /* height: 2em; */
 }
 .sp-date {
   color: var(--dark-blue);
@@ -219,8 +221,9 @@ date-sub {
   width: auto;
 }
 p {
-  margin-top: 20px;
-  text-indent: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  /* text-indent: 10px; */
   text-align: justify;
   color: var(--parg-color);
   padding-left: 10px;
@@ -231,6 +234,7 @@ h3 {
   color: var(--dark-blue);
   font-weight: 700;
   text-decoration: underline;
+  margin-top: 20px;
 }
 .right-side {
   width: 100px;
@@ -239,6 +243,14 @@ h3 {
 .chevron {
   display: flex;
   justify-content: end;
+}
+
+h5 {
+  font-style: italic;
+  color: var(--dark-blue);
+}
+h4 {
+  color: var(--dark-blue);
 }
 
 @media (max-width: 750px) {
@@ -256,5 +268,8 @@ h3 {
   }
   .title2 {
     font-size: 20px;
+  }
+  .sem-title {
+    font-size: 0.7em;
   }
 }
