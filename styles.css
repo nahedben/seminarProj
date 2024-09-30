@@ -1,0 +1,227 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: auto;
+  font-family: Calibri, sans-serif;
+  /* cursor: url("https://res.cloudinary.com/dvkugaw3b/image/upload/v1641562028/cursor_ad12rf.png"), */
+  /* auto; */
+}
+:root {
+  --title-color: green;
+  --text-darkblue: #0f3156;
+  --blue-turq: #3eb1d0;
+  --dark-blue: #055173;
+  --link-text-color: #ffffff;
+  --dark-yellow-col: #8e805b;
+  --yellow-color: #dfb029;
+  --brown-color: #333333;
+  --orange-color: #f18000;
+  --bottom-background: #eee;
+  --background-sem-cont: #e2e2e2;
+  --parg-color: gray;
+}
+
+h1 {
+  color: var(--title-color);
+  text-align: center;
+}
+ul {
+  display: flex;
+  margin-left: 20px;
+}
+
+.nav {
+  margin: 0px 50px;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  color: red;
+  padding: 5px;
+  margin-left: 5px;
+  border-radius: 5px;
+  color: var(--link-text-color);
+  border-style: none;
+  text-transform: capitalize;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: var(--blue-turq);
+}
+li {
+  list-style: none;
+}
+.title-section {
+  display: flex;
+  /* justify-items: baseline; */
+  justify-content: center;
+  margin: auto;
+  width: 1263px;
+  margin-bottom: 20px;
+}
+.t1-eng-arab {
+  /* width: 200px; */
+  margin: auto 30px auto auto;
+  font-size: 30px;
+  color: var(--blue-turq);
+  font-family: "Libre Franklin";
+  text-transform: uppercase;
+}
+.arab {
+  direction: rtl;
+  margin: auto auto auto 30px;
+  font-size: 60px;
+  font-family: "Zain";
+}
+.colored_lines-container {
+  display: flex;
+  /* justify-content: center; */
+}
+.edge {
+  height: 3px;
+  width: 213px;
+  background-color: red;
+}
+.yellow {
+  background-color: var(--yellow-color);
+}
+.brown {
+  background-color: var(--dark-yellow-col);
+}
+.turq {
+  background-color: var(--blue-turq);
+}
+.blue {
+  background-color: var(--dark-blue);
+}
+.orange {
+  background-color: var(--orange-color);
+}
+.title2 {
+  color: var(--dark-blue);
+  box-sizing: content-box;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  /* padding: 40px auto 10px auto; */
+  font-weight: 700;
+  font-size: 2em;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+button {
+  border: none;
+  background-color: var(--background-sem-cont);
+  /* display: absolute; */
+}
+[id^="chevron-arrow-left-"] {
+  display: inline-block;
+
+  border-right: 4px solid var(--dark-yellow-col);
+  border-bottom: 4px solid var(--dark-yellow-col);
+  width: 10px;
+  height: 10px;
+  transform: rotate(-315deg);
+  color: var(--text-darkblue);
+  cursor: pointer;
+}
+[id^="chevron-arrow-left-"]:hover {
+  border-right: 4px solid var(--blue-turq);
+  border-bottom: 4px solid var(--blue-turq);
+}
+.smi-sckedule {
+  /* margin-top: 30px; */
+  background-color: var(--bottom-background);
+}
+
+.art-arc {
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  /* padding-left: 20px; */
+  border: 4px solid var(--yellow-color);
+  border-radius: 10px;
+  /* padding-top: 20px; */
+  padding: 5px 10px 10px 5px;
+  background-color: var(--background-sem-cont);
+}
+.tit-spk {
+  /* width: 1200px; */
+  display: flex;
+  margin-bottom: 8px;
+}
+.name {
+  margin-left: auto;
+  padding-right: 15px;
+  color: var(--dark-blue);
+  font-weight: 700;
+  align-self: top;
+}
+.date {
+  display: flex;
+  justify-content: end;
+  align-items: baseline;
+  /* margin-left: auto; */
+}
+
+.date,
+.hour-sub {
+  display: flex;
+  justify-content: end;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.hour {
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+  /* width: 30%; */
+  padding-right: 10px;
+  margin-left: auto;
+}
+.hour-sub,
+date-sub {
+  /* height: 1em; */
+  margin-top: 3px;
+  align-items: center;
+
+  /* width: 40%; */
+}
+
+.sem-title {
+  font-size: 1.2em;
+  color: var(--dark-blue);
+  width: 50%;
+}
+.sp-date {
+  color: var(--dark-blue);
+  font-weight: 700;
+  width: auto;
+}
+p {
+  margin-top: 20px;
+  text-indent: 10px;
+  text-align: justify;
+  color: var(--parg-color);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+h3 {
+  padding-left: 10px;
+  color: var(--dark-blue);
+  font-weight: 700;
+  text-decoration: underline;
+}
+.right-side {
+  width: 100px;
+  display: flex;
+}
+.chevron {
+  display: flex;
+  justify-content: end;
+}
