@@ -64,7 +64,30 @@ const seminars = [
     isVisible: "none",
   },
 ];
-
+const bandColors = [
+  "edge yellow",
+  "edge brown",
+  "edge turq",
+  "edge blue",
+  "edge orange",
+  "edge yellow",
+  "edge brown",
+  "edge turq",
+  "edge orange",
+];
+const coloredDiv = document.getElementById("col-band-1");
+const coloredDiv2 = document.getElementById("col-band-2");
+const rendercoloredDivs = () => {
+  const divHtml = bandColors
+    .map((div) => {
+      return `<div class="${div}"></div>`;
+    })
+    .join("");
+  console.log(divHtml);
+  coloredDiv.innerHTML = divHtml;
+  coloredDiv2.innerHTML = divHtml;
+};
+rendercoloredDivs();
 const contentContainer = document.getElementById("cont-items");
 const chev = document.getElementById("chevron-arrow-left");
 

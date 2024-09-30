@@ -58,7 +58,7 @@ li {
   /* justify-items: baseline; */
   justify-content: center;
   margin: auto;
-  width: 1263px;
+  width: auto;
   margin-bottom: 20px;
 }
 .t1-eng-arab {
@@ -75,8 +75,23 @@ li {
   font-size: 60px;
   font-family: "Zain";
 }
+.imgs-container {
+  padding: 0px;
+  margin: 0px;
+  height: auto;
+}
+.cont-img {
+  margin-top: 0px;
+  margin-bottom: -5px;
+  border: none;
+  padding: 0px;
+  width: 100%;
+}
 .colored_lines-container {
   display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
   /* justify-content: center; */
 }
 .edge {
@@ -224,4 +239,22 @@ h3 {
 .chevron {
   display: flex;
   justify-content: end;
+}
+
+@media (max-width: 750px) {
+  logo {
+    width: 40%;
+    height: 40%;
+  }
+  .t1-eng-arab {
+    /* text-size-adjust: 40%; */
+    font-size: 20px;
+    /* font-size: 15px; */
+  }
+  .arab {
+    font-size: 30px;
+  }
+  .title2 {
+    font-size: 20px;
+  }
 }
