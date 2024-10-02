@@ -10,7 +10,8 @@ const seminars = [
     endHour: "13:00",
     day: "الثلاثاء",
     date: "2024-10-15",
-    abstract: "Abstract still not available",
+    abstract:
+      "This work aim to investigates the existence of self-excited and hidden attractors in discontinuous systems involving sliding mode.  The hypersurface plays a critical role in allowing rapid transient responses to dynamic phenomena. To show the effect of a hypersurface on the dynamics of a discontinuous system, we present a simple discontinuous system composed of dissipative linear subsystems with no equilibria. Our results show that the periodic orbit can be completely established within a sliding region. We then proceed to a mathematical investigation into a path to self-excited and hidden attractors involving sliding mode in a discontinuous system composed of dissipative Jerk-like subsystems separated by a hypersurface. A Poincaré return map is developed to incorporate the presence of the hypersurface, providing the necessary conditions in the basis for sliding period-doubling orbits that lead to the sliding chaotic attractor. Our results show that various types of attractors and their coexisting attractors, such as sliding period doubling and chaotic behavior, are successfully captured. Using path-following techniques for discontinuous dynamical systems, the results are verified numerically.",
     Keywords: "",
     englishName: "Hany Albadrey Bakit",
     department:
@@ -50,7 +51,8 @@ const seminars = [
     endHour: "13:00",
     day: "الثلاثاء",
     date: "2024-11-05",
-    abstract: "Abstract still not available",
+    abstract:
+      "The improvement of crop yield using plant growth-promoting rhizobacteria (PGPR) represents a sustainable and environmentally friendly strategy to enhance agricultural production over the long term. PGPR are soil bacteria that colonize plant roots and inhabit the rhizosphere, where they can exist as neutral, beneficial or harmful organisms. These beneficial microbes facilitate improved water absorption, suppress pathogenic organisms and enhance nutrient uptake from the soil. In addition, various PGPR species have been identified to mitigate the harmful effects of salinity stress, thereby increasing plant stress tolerance. This lecture discusses some biochemical mechanisms through which PGPR stimulate plant growth including (1) bio-stimulants, including specific phytohormones such as auxins (e.g. indole acetic acid, cytokinin, gibberellic acid, and ethylene); (2) biofertilization, which aids in the uptake of essential nutrients through processes such as biological nitrogen fixation, phosphate solubilization, and siderophore production; and (3) bioprotectants or biocontrol agents, which mitigate plant diseases vis the production of antibiotics, lytic enzymes, and hydrogen cyanide. Furthermore, new approach was employed to increase the efficacy of PGPR, the utilization of He-Ne laser radiation has been recently explored. Laser treatment can enhance the activity of PGPR by stimulating metabolic processes, improving the colonization of plant roots, and promising the expression of beneficial traits in the bacteria. This combination of laser technology and PGPR application holds promise for optimizing plant growth and resilience, particularly in challenging environmental conditions.",
     Keywords: "",
     englishName: "Mahmoud Saleh",
     department:
