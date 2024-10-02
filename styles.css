@@ -22,6 +22,7 @@
   --bottom-background: #eee;
   --background-sem-cont: #e2e2e2;
   --parg-color: gray;
+  --size-font-520view: 0.7em;
 }
 
 h1 {
@@ -270,6 +271,44 @@ h4 {
     font-size: 20px;
   }
   .sem-title {
-    font-size: 0.7em;
+    font-size: 0.9em;
+  }
+  .sp-date {
+    font-size: 14px;
+  }
+}
+@media (max-width: 520px) {
+  logo {
+    width: 20%;
+    height: 20%;
+  }
+  .t1-eng-arab {
+    font-size: 20px;
+    width: 40%;
+    text-align: left;
+    font-weight: 500;
+  }
+  .eng {
+    font-size: 10px;
+    width: 40%;
+    text-align: right;
+  }
+  .title-section {
+    padding: 10px;
+  }
+  .sp-date {
+    font-size: 12px;
+  }
+  .sem-title {
+    font-size: 0.9em;
+  }
+  h4 {
+    font-size: var(--size-font-520view);
+  }
+  h5 {
+    font-size: 0.6em;
+  }
+  p {
+    font-size: var(--size-font-520view);
   }
 }
