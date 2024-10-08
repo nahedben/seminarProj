@@ -7,7 +7,7 @@ const seminars = [
       grade: "أ.د",
     },
     startHour: "11:00",
-    endHour: "13:00",
+    endHour: "12:00",
     day: "الثلاثاء",
     date: "2024-10-15",
     abstract:
@@ -27,7 +27,7 @@ const seminars = [
       grade: "د",
     },
     startHour: "11:00",
-    endHour: "13:00",
+    endHour: "12:00",
     day: "الثلاثاء",
     date: "2024-10-29",
     abstract:
@@ -48,7 +48,7 @@ const seminars = [
       grade: "د",
     },
     startHour: "11:00",
-    endHour: "13:00",
+    endHour: "12:00",
     day: "الثلاثاء",
     date: "2024-11-05",
     abstract:
@@ -67,7 +67,7 @@ const seminars = [
       grade: "د",
     },
     startHour: "11:00",
-    endHour: "13:00",
+    endHour: "12:00",
     day: "الثلاثاء",
     date: "2024-12-03",
     abstract:
