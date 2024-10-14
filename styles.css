@@ -253,6 +253,41 @@ h5 {
 h4 {
   color: var(--dark-blue);
 }
+.location {
+  /* border-bottom: 100px solid --dark-blue;
+  border-right: 25px solid transparent;
+  width: 200px;
+  height: 20px; */
+  /* background-color: var(--dark-blue);
+  width: 200px; */
+  border-top: 45px solid var(--dark-blue);
+  /* border-left: 25px solid transparent; */
+  border-right: 30px solid transparent;
+  height: 0;
+  width: 30%;
+  margin-left: 10px;
+  border-radius: 8px;
+  z-index: 2;
+}
+.loc-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 20%;
+  /* text-align: right; */
+  margin-right: 50px;
+  margin-top: -45px;
+  position: relative;
+  color: #fff;
+  z-index: 5;
+  margin-left: 15%;
+  width: auto;
+  /* position: 3; */
+}
+footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
 @media (max-width: 750px) {
   logo {

@@ -6,7 +6,7 @@ const seminars = [
       name: "هاني البدري بخيت ",
       grade: "أ.د",
     },
-    startHour: "11:00",
+    startHour: "13:00",
     endHour: "12:00",
     day: "الثلاثاء",
     date: "2024-10-15",
@@ -26,7 +26,7 @@ const seminars = [
       name: "نهى علوي الحبشي",
       grade: "د",
     },
-    startHour: "11:00",
+    startHour: "13:00",
     endHour: "12:00",
     day: "الثلاثاء",
     date: "2024-10-29",
@@ -47,7 +47,7 @@ const seminars = [
       name: "محمود صالح",
       grade: "د",
     },
-    startHour: "11:00",
+    startHour: "13:00",
     endHour: "12:00",
     day: "الثلاثاء",
     date: "2024-11-05",
@@ -66,7 +66,7 @@ const seminars = [
       name: "جينات أسلن",
       grade: "د",
     },
-    startHour: "11:00",
+    startHour: "13:00",
     endHour: "12:00",
     day: "الثلاثاء",
     date: "2024-12-03",
@@ -142,7 +142,7 @@ const renderSeminars = (arr) => {
                 </div>                
               <div class="hour">
                 <div class="hour-sub">
-                  <span class="sp-date" lang="ar" direction="ltr">   ${sem.startHour} </span>
+                  <span class="sp-date" lang="ar" direction="ltr">   ${sem.startHour}&nbsp; </span>
                   <span class="sp-date" lang="ar" direction="ltr">  -  ${sem.endHour} </span>
                 </div>
                  <div class="btn"> <button onclick="renderAbstract(${sem.id})"><div id="chevron-arrow-left-${sem.id}"></div></button></div>
