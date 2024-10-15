@@ -98,7 +98,7 @@ const rendercoloredDivs = () => {
       return `<div class="${div}"></div>`;
     })
     .join("");
-  console.log(divHtml);
+  // console.log(divHtml);
   coloredDiv.innerHTML = divHtml;
   coloredDiv2.innerHTML = divHtml;
 };
