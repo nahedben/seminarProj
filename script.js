@@ -32,7 +32,7 @@ const seminars = [
     Keywords: "",
     englishName: "Tanveer Fatima",
     department:
-      "Department of Math & Stats College of Sciences, Taibah University, Yanbu",
+      "Department of Math & Stats College of Sciences, Yanbu Branch, Taibah University.",
     isVisible: "none",
   },
   {
@@ -52,7 +52,7 @@ const seminars = [
     Keywords: "",
     englishName: "Abuelhassan Elshazly Younis",
     department:
-      "Department of Biology College of Sciences, Taibah University, Yanbu",
+      "Department of Biology, College of Sciences, Yanbu Branch, Taibah University. ",
     isVisible: "none",
 
     // title:
@@ -85,11 +85,12 @@ const seminars = [
     endHour: "13:00",
     day: "الثلاثاء",
     date: "2025-04-29",
-    abstract: "",
+    abstract:
+      "In this talk, we utilize the Brueckner-Hartree-Fock (BHF) method to compute the static properties of neutron stars (NS) at zero temperature. We specifically apply a microscopic equation of state for pure neutron matter (PNM). Three-body forces have also been included at different densities. To accurately replicate the nuclear matter saturation point, we have incorporated recent and realistic two-body nuclear interactions. Specifically, we have used the Argonne V18 and CD-Bonn NN potentials, integrated via the Urbana model, to account for the three-body force. We have calculated the properties of neutron stars by numerically solving the Tolman-Oppenheimer-Volkov structure equations. Our results indicate a maximum mass configuration of M = 1.7 ± 0.05 Mʘ (M = 2.12 ± 0.04 Mʘ) when using CD-Bonn (Argonne 18) interaction, respectively. These values are consistent with the observed range of neutron star masses. Furthermore, we have discussed the sensitivity of using modern NN potentials and compared our results with other theoretical predictions and observed data.",
     Keywords: "",
     englishName: "Alaa Elmeshneb",
     department:
-      "Department of Physics College of Sciences, Taibah University, Yanbu",
+      "Department of Physics, College of Science, Yanbu Branch, Taibah University.",
     isVisible: "none",
     // title:
     //   "Growth enhancement of crop plants utilizing plant growth-promoting rhizobacteria",
@@ -126,7 +127,7 @@ const seminars = [
     Keywords: "",
     englishName: "Khaled Khalil",
     department:
-      "Department of Chemistry, College of Sciences, Taibah University, Yanbu, Al-Madina, Saudi Arabia",
+      "Department of Chemistry, College of Sciences, Yanbu Branch, Taibah University.",
     isVisible: "none",
   },
   //   title: "Corrosion Engineering: A Growing Field for Future Scientists",
