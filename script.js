@@ -32,7 +32,7 @@ const seminars = [
     Keywords: "",
     englishName: "Tanveer Fatima",
     department:
-      "Department of Math & Stats College of Sciences, Yanbu Branch, Taibah University.",
+      "Department of Math & Stats, College of Sciences, Yanbu Branch, Taibah University.",
     isVisible: "none",
   },
   {
